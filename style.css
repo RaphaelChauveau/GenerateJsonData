@@ -1,0 +1,54 @@
+body {
+}
+
+#panels {
+	display:flex;
+    flex-direction:row;
+}
+
+
+.panel {
+	overflow: scroll;
+	border: 1px black solid;
+	height: 90vh;
+}
+
+#left-panel {
+	display:flex;
+    flex-direction:column;
+	width: 75%;
+	resize: horizontal;
+}
+
+#right-panel {
+	/*position: absolute;
+	top: 0px;
+	left: 300px;
+	
+	height: 100%;
+	width: 300px;*/
+	
+	display:flex;
+    flex-direction:column;
+	width: 300px;
+}
+
+.objectContainer {
+}
+.selectedObject {
+	background-color: #E0E0E0;
+}
+
+.nullObject {
+	color: #FF00FF;
+}
+.numberObject {
+	color: #FFAA00;
+}
+.booleanObject {
+	color: #0000FF;
+}
+.stringObject {
+	color: #FF0000
+}
+
